@@ -1,3 +1,18 @@
+#monster-text {
+  height: 350px;
+}
+
+.monster-name {
+  margin: 0 auto;
+  border: solid 2px white;
+  color: white;
+}
+
+#container-command {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
 .command {
   display: flex;
   text-align: center;
@@ -8,8 +23,9 @@
   border: solid 2px white;
   border-radius: 0.2em;
   width: 200px;
-  padding: 20px;
+  padding: 10px;
   color: white;
   background-color: black;
+  margin: 0 10px 10px;
 }
 /*# sourceMappingURL=yukinori.css.map */
