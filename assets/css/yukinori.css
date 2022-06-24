@@ -1,11 +1,18 @@
 #monster-text {
   height: 350px;
+  text-align: center;
 }
 
 .monster-name {
-  margin: 0 auto;
   border: solid 2px white;
   color: white;
+}
+
+.monster-btn {
+  border: solid 2px white;
+  color: white;
+  border-radius: 0.2em;
+  cursor: pointer;
 }
 
 #container-command {
@@ -27,5 +34,6 @@
   color: white;
   background-color: black;
   margin: 0 10px 10px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=yukinori.css.map */

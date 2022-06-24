@@ -1,32 +1,47 @@
 // モンスター
-#monster-text{
-  height: 350px; 
+#monster-text {
+  height: 350px;
+  text-align: center;
 }
 
-.monster-name{
-  margin: 0 auto;
-  border: solid 2px white;
-  color: white;
+.monster {
+
+  &-name {
+    border: solid 2px white;
+    color: white;
+  }
+
+  &-btn {
+    border: solid 2px white;
+    color: white;
+    border-radius: 0.2em;
+    cursor: pointer;
+  }
+
+  // &-btn{
+  //   @extend &-name,
+  // }
 }
 
 // コマンド
-#container-command{
+#container-command {
   height: 150px;
   margin-bottom: 20px;
 }
 
-.command{
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.command {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-.action{
-    border: solid 2px white;
-    border-radius: 0.2em;
-    width: 200px;
-    padding: 10px;
-    color: white;
-    background-color: black;
-    margin: 0 10px 10px;
+.action {
+  border: solid 2px white;
+  border-radius: 0.2em;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  margin: 0 10px 10px;
+  cursor: pointer;
 }
