@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=yukinori.css.map */
+.command {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.action {
+  border: solid 2px white;
+  border-radius: 0.2em;
+  width: 200px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=yukinori.css.map */

@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../haruna.scss"
+        "../../scss/haruna.scss"
     ],
     "names": [],
     "file": "haruna.css"
