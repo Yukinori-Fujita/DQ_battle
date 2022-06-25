@@ -1,4 +1,10 @@
 #technext-member {
   height: 300px;
+  display: block;
+  border: white;
+}
+
+li{
+  list-style: none;
 }
 /*# sourceMappingURL=haruna.css.map */
