@@ -55,6 +55,32 @@
   position: relative;
   z-index: 1;
 
+  .attack {
+    border: solid 2px white;
+    border-radius: 0.2em;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin: 0 10px 10px;
+    cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
+  }
+
+  .swap {
+    @extend .attack;
+  }
+
+  .escape {
+    @extend .attack;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+#command {
   &-text {
     border: solid 2px white;
     border-radius: 0.5em;
@@ -62,16 +88,12 @@
     height: 130px;
     margin: 0 auto;
 
-    &-replacement{
-
-    }
-
-    li {
+    button {
       color: white;
       font-family: 'DotGothic16', sans-serif;
       content: "";
       animation-name: blink;
-      animation-duration: 1.5s;
+      animation-duration: 1s;
       animation-iteration-count: 1;
     }
 
@@ -85,20 +107,7 @@
       }
     }
 
-    button{}
   }
-}
-
-.action {
-  border: solid 2px white;
-  border-radius: 0.2em;
-  width: 200px;
-  padding: 10px;
-  color: white;
-  background-color: black;
-  margin: 0 10px 10px;
-  cursor: pointer;
-  font-family: 'DotGothic16', sans-serif;
 }
 
 // .fade {

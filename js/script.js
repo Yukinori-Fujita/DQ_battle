@@ -28,15 +28,27 @@ $(function () {
 
     // たたかう
     $(".attack").on("click",function(){
-        $(".command-text .text-c1").text("みんなで力を合わせてモンスターを攻撃した!15000ポイントのダメージを与えた!モンスターを倒した!");
+        $("#command-text").removeClass("hide");
+        $("#command-text .chara-c1").text("みんなで力を合わせてモンスターを攻撃した!15000ポイントのダメージを与えた!モンスターを倒した!");
         $("#container-command").remove();
         $(".monster-appearance").remove();
     })
     // にげる
     $(".escape").on("click",function(){
-        $(".command-text .text-c1").text("うまくにげきれた");
+        $("#command-text").removeClass("hide");
+        $("#command-text .chara-c1").text("うまくにげきれた");
         $("#container-command").remove();
     })
     // いれかえ
-
+    $(".swap").on("click",function(){
+        $("#command-text").removeClass("hide");
+        $("#command-text .chara-c1").text("ルイス");
+        $("#command-text .chara-c2").text("きんじょう");
+        $("#command-text .chara-c3").text("ぐしけん");
+        $("#command-text .chara-c4").text("とっしー");
+        $("#command-text .chara-c5").text("はるな");
+        $("#command-text .chara-c6").text("ゆきのり");
+        $("#command-text .chara-c7").text("りか");
+        $("#container-command").remove();
+    })
 })

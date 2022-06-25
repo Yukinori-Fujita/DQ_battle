@@ -38,7 +38,23 @@
   z-index: 1;
 }
 
-.command-text {
+.command .attack, .command .swap, .command .escape {
+  border: solid 2px white;
+  border-radius: 0.2em;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  margin: 0 10px 10px;
+  cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#command-text {
   border: solid 2px white;
   border-radius: 0.5em;
   width: 700px;
@@ -46,12 +62,12 @@
   margin: 0 auto;
 }
 
-.command-text li {
+#command-text button {
   color: white;
   font-family: 'DotGothic16', sans-serif;
   content: "";
   animation-name: blink;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
 }
 
@@ -62,17 +78,5 @@
   to {
     opacity: 0;
   }
-}
-
-.action {
-  border: solid 2px white;
-  border-radius: 0.2em;
-  width: 200px;
-  padding: 10px;
-  color: white;
-  background-color: black;
-  margin: 0 10px 10px;
-  cursor: pointer;
-  font-family: 'DotGothic16', sans-serif;
 }
 /*# sourceMappingURL=yukinori.css.map */
