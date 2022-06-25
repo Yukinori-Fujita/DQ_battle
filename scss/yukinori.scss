@@ -52,16 +52,33 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 
-  &-text{
+  &-text {
     border: solid 2px white;
     border-radius: 0.5em;
     width: 700px;
     height: 130px;
     margin: 0 auto;
 
-    li{
+    li {
       color: white;
+      font-family: 'DotGothic16', sans-serif;
+      content: "";
+      animation-name: blink;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes blink {
+      from {
+        opacity: 100%;
+      }
+
+      to {
+        opacity: 0;
+      }
     }
   }
 }
