@@ -8,6 +8,7 @@
   border: solid 2px white;
   color: white;
   width: 300px;
+  font-family: 'DotGothic16', sans-serif;
 }
 
 .monster-btn {
@@ -15,14 +16,7 @@
   color: white;
   border-radius: 0.2em;
   cursor: pointer;
-}
-
-.monster-list {
-  border: solid 2px white;
-  padding: 4px;
-  color: white;
-  border-radius: 0.2em;
-  cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
 }
 
 .monster-appearance {
@@ -51,5 +45,6 @@
   background-color: black;
   margin: 0 10px 10px;
   cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
 }
 /*# sourceMappingURL=yukinori.css.map */

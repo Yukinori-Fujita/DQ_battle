@@ -12,7 +12,7 @@ $(function () {
                 // $(".fade").addClass("view")
                 $(".monster-name").remove();
                 $(".monster-btn").remove();
-                $(".monster-list").remove();
+                // $(".monster-list").remove();
                 //通信成功時の処理
                 //成功したとき実行したいスクリプトを記載
             })
@@ -26,8 +26,9 @@ $(function () {
             });
     })
 
-    $(".attack").on("click",function(){
-
+    $(".escape").on("click",function(){
+        $(".command-text").text("うまくにげきれた");
+        
     })
 
 })
