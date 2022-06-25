@@ -51,7 +51,7 @@
   font-family: 'DotGothic16', sans-serif;
   content: "";
   animation-name: blink;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: 1;
 }
 

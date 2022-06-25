@@ -26,15 +26,17 @@ $(function () {
             });
     })
 
+    // たたかう
     $(".attack").on("click",function(){
         $(".command-text .text-c1").text("みんなで力を合わせてモンスターを攻撃した!15000ポイントのダメージを与えた!モンスターを倒した!");
         $("#container-command").remove();
         $(".monster-appearance").remove();
     })
-
+    // にげる
     $(".escape").on("click",function(){
         $(".command-text .text-c1").text("うまくにげきれた");
         $("#container-command").remove();
     })
+    // いれかえ
 
 })

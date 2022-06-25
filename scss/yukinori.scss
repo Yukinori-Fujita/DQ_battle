@@ -62,12 +62,16 @@
     height: 130px;
     margin: 0 auto;
 
+    &-replacement{
+
+    }
+
     li {
       color: white;
       font-family: 'DotGothic16', sans-serif;
       content: "";
       animation-name: blink;
-      animation-duration: 1s;
+      animation-duration: 1.5s;
       animation-iteration-count: 1;
     }
 
@@ -80,6 +84,8 @@
         opacity: 0;
       }
     }
+
+    button{}
   }
 }
 
