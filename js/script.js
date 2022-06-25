@@ -24,4 +24,8 @@ $(function () {
             });
     })
 
+    $(".attack").on("click",function(){
+        
+    })
+
 })

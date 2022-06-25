@@ -10,9 +10,17 @@
   &-name {
     border: solid 2px white;
     color: white;
+    width: 300px;
   }
 
   &-btn {
+    border: solid 2px white;
+    color: white;
+    border-radius: 0.2em;
+    cursor: pointer;
+  }
+
+  &-list {
     border: solid 2px white;
     color: white;
     border-radius: 0.2em;
