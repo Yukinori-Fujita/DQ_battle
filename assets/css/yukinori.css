@@ -1,0 +1,83 @@
+#monster-text {
+  height: 350px;
+  text-align: center;
+  position: relative;
+}
+
+.monster-name {
+  border: solid 2px white;
+  color: white;
+  width: 310px;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.monster-btn {
+  border: solid 2px white;
+  color: white;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.monster-appearance {
+  position: absolute;
+  top: -100px;
+  left: 30%;
+}
+
+#container-command {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.command {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.command .attack, .command .swap, .command .escape {
+  border: solid 2px white;
+  border-radius: 0.2em;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  margin: 0 10px 10px;
+  cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+#command-text {
+  border: solid 2px white;
+  border-radius: 0.5em;
+  width: 700px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+#command-text button {
+  color: white;
+  font-family: 'DotGothic16', sans-serif;
+  padding: 15px;
+  content: "";
+  animation-name: blink;
+  animation-duration: 0.1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes blink {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=yukinori.css.map */
