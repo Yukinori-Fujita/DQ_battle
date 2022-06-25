@@ -19,6 +19,7 @@
 
 .monster-list {
   border: solid 2px white;
+  padding: 4px;
   color: white;
   border-radius: 0.2em;
   cursor: pointer;
