@@ -36,6 +36,18 @@
   justify-content: center;
 }
 
+.command-text {
+  border: solid 2px white;
+  border-radius: 0.5em;
+  width: 700px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.command-text li {
+  color: white;
+}
+
 .action {
   border: solid 2px white;
   border-radius: 0.2em;

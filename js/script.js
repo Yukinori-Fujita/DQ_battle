@@ -27,8 +27,8 @@ $(function () {
     })
 
     $(".escape").on("click",function(){
-        $(".command-text").text("うまくにげきれた");
-        
+        $(".command-text li").text("うまくにげきれた");
+        $("#container-command").remove();
     })
 
 })

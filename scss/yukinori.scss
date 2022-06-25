@@ -54,7 +54,15 @@
   justify-content: center;
 
   &-text{
-    
+    border: solid 2px white;
+    border-radius: 0.5em;
+    width: 700px;
+    height: 130px;
+    margin: 0 auto;
+
+    li{
+      color: white;
+    }
   }
 }
 
