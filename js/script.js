@@ -9,8 +9,10 @@ $(function () {
         })
             .done(function (response) {
                 $(".monster-appearance").children('img').attr('src', response.sprites.front_default).attr("width", "500px").attr("height", "500px");
+                // $(".fade").addClass("view")
                 $(".monster-name").remove();
                 $(".monster-btn").remove();
+                $(".monster-list").remove();
                 //通信成功時の処理
                 //成功したとき実行したいスクリプトを記載
             })
@@ -25,7 +27,7 @@ $(function () {
     })
 
     $(".attack").on("click",function(){
-        
+
     })
 
 })

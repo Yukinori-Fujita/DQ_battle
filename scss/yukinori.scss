@@ -31,7 +31,6 @@
     position: absolute;
     top: -100px;
     left: 30%;
-    z-index: -1;
   }
 
   // &-btn{
@@ -61,3 +60,14 @@
   margin: 0 10px 10px;
   cursor: pointer;
 }
+
+// .fade {
+//   margin-top: 120vh;
+//   text-align: center;
+//   opacity: 0;
+//   transition: opacity 6s;
+// }
+
+// .fade.view {
+//   opacity: 1;
+// }
