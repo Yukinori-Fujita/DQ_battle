@@ -12,6 +12,7 @@ $(function () {
                 // $(".fade").addClass("view")
                 $(".monster-name").remove();
                 $(".monster-btn").remove();
+                console.log(response);
                 // $(".monster-list").remove();
                 //通信成功時の処理
                 //成功したとき実行したいスクリプトを記載
@@ -27,20 +28,20 @@ $(function () {
     })
 
     // たたかう
-    $(".attack").on("click",function(){
+    $(".attack").on("click", function () {
         $("#command-text").removeClass("hide");
         $("#command-text .chara-c1").text("みんなで力を合わせてモンスターを攻撃した!15000ポイントのダメージを与えた!モンスターを倒した!");
         $("#container-command").remove();
         $(".monster-appearance").remove();
     })
     // にげる
-    $(".escape").on("click",function(){
+    $(".escape").on("click", function () {
         $("#command-text").removeClass("hide");
         $("#command-text .chara-c1").text("うまくにげきれた");
         $("#container-command").remove();
     })
     // いれかえ
-    $(".swap").on("click",function(){
+    $(".swap").on("click", function () {
         $("#command-text").removeClass("hide");
         $("#command-text .chara-c1").text("ルイス");
         $("#command-text .chara-c2").text("きんじょう");
@@ -49,6 +50,29 @@ $(function () {
         $("#command-text .chara-c5").text("はるな");
         $("#command-text .chara-c6").text("ゆきのり");
         $("#command-text .chara-c7").text("りか");
+        $("#command-text .return").text("戻る");
         $("#container-command").remove();
+    })
+
+    let c1_btn = document.getElementsByClassName("chara-c1");
+    c1_btn.addEventListener("click",function(){
+        if ("#member-list1" = "") {
+            $("#member-list1").addClass("hyozi")
+            $(".first-name").text("ルイス");
+            $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
+            $(".first-hp").text("HP:700");
+            $(".first-t").text("GS:75");
+            $(".first-lv").text("Lv:100");
+        }
+    })
+    $(".chara-c1").on("click", function () {
+        if ("#member-list1" = "") {
+            $("#member-list1").addClass("hyozi")
+            $(".first-name").text("ルイス");
+            $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
+            $(".first-hp").text("HP:700");
+            $(".first-t").text("GS:75");
+            $(".first-lv").text("Lv:100");
+        }
     })
 })

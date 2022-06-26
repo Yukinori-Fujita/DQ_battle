@@ -1,3 +1,20 @@
+#technext-member {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+#member-list1, #member-list2, #member-list3, #member-list4 {
+  color: white;
+  text-align: center;
+  border-radius: 0.5em;
+  height: 230px;
+}
+
+.hyozi {
+  border: solid 2px white;
+}
+
 #monster-text {
   height: 350px;
   text-align: center;
@@ -22,7 +39,7 @@
 .monster-appearance {
   position: absolute;
   top: -100px;
-  left: 30%;
+  left: 35%;
 }
 
 #container-command {
