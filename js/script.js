@@ -91,7 +91,7 @@ $(function () {
         $(".third-name").text("ぐしけん");
         $("#member-list3").children("img").attr('src', "./img/gushikenn.png").attr("width", "120px").attr("height", "120px");
         $(".third-hp").text("HP:280");
-        $(".third-t").text("");
+        $(".third-t").text("RT:100");
         $(".third-lv").text("Lv:??");
     })
     $(".chara-c4").on("click", function () {
