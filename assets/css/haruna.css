@@ -1,10 +1,45 @@
-#technext-member {
-  height: 300px;
-  display: block;
-  border: white;
+.zkn{
+  text-align: center;
+  padding: 50px;
 }
 
-li{
-  list-style: none;
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin: auto;
 }
-/*# sourceMappingURL=haruna.css.map */
+
+li {
+  position: relative;
+  background-color: rgba(244, 245, 237, 0.347);
+  border-radius: 0.5em;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 220px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(45deg, #66c8f6,#da8ef6,#e4fb61);/*グラデーションを定義*/
+	background-size: 200% 200%;
+	animation: bggradient 20s ease infinite;
+}
+
+@keyframes bggradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
