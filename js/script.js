@@ -12,8 +12,7 @@ $(function () {
                 // $(".fade").addClass("view")
                 $(".monster-name").remove();
                 $(".monster-btn").remove();
-                console.log(response);
-                // $(".monster-list").remove();
+                $(".monster-list").remove();
                 //通信成功時の処理
                 //成功したとき実行したいスクリプトを記載
             })
@@ -127,3 +126,5 @@ $(function () {
         $(".seven-lv").text("Lv:27");
     })
 })
+
+
