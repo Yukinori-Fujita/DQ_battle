@@ -2,9 +2,11 @@
   display: flex;
   justify-content: space-around;
   height: 300px;
+  position: relative;
+  z-index: 1;
 }
 
-#member-list1, #member-list2, #member-list3, #member-list4 {
+#member-list1, #member-list2, #member-list3, #member-list4, #member-list5, #member-list6, #member-list7 {
   color: white;
   text-align: center;
   border-radius: 0.5em;
@@ -43,8 +45,7 @@
 }
 
 #container-command {
-  height: 150px;
-  margin-bottom: 20px;
+  background-color: black;
 }
 
 .command {
@@ -59,7 +60,7 @@
   border: solid 2px white;
   border-radius: 0.2em;
   width: 200px;
-  padding: 10px;
+  padding: 6px;
   color: white;
   background-color: black;
   margin: 0 10px 10px;

@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-around;
   height: 300px;
+  position: relative;
+  z-index: 1;
 }
 
 #member-list1 {
@@ -13,19 +15,31 @@
   height: 230px;
 }
 
-.hyozi{
+.hyozi {
   border: solid 2px white;
 }
 
-#member-list2{
+#member-list2 {
   @extend #member-list1;
 }
 
-#member-list3{
+#member-list3 {
   @extend #member-list1;
 }
 
-#member-list4{
+#member-list4 {
+  @extend #member-list1;
+}
+
+#member-list5 {
+  @extend #member-list1;
+}
+
+#member-list6 {
+  @extend #member-list1;
+}
+
+#member-list7 {
   @extend #member-list1;
 }
 
@@ -75,8 +89,9 @@
 
 // コマンド
 #container-command {
-  height: 150px;
-  margin-bottom: 20px;
+  // height: 150px;
+  // margin-bottom: 20px;
+  background-color: black;
 }
 
 .command {
@@ -90,7 +105,7 @@
     border: solid 2px white;
     border-radius: 0.2em;
     width: 200px;
-    padding: 10px;
+    padding: 6px;
     color: white;
     background-color: black;
     margin: 0 10px 10px;
@@ -111,44 +126,45 @@
   display: none;
 }
 
-#command {
-  &-text {
-    border: solid 2px white;
-    border-radius: 0.5em;
-    width: 700px;
-    height: 130px;
-    margin: 0 auto;
 
-    button {
-      color: white;
-      font-family: 'DotGothic16', sans-serif;
-      padding: 15px;
-      content: "";
-      animation-name: blink;
-      animation-duration: 0.1s;
-      animation-iteration-count: 1;
-    }
+  #command {
+    &-text {
+      border: solid 2px white;
+      border-radius: 0.5em;
+      width: 700px;
+      height: 130px;
+      margin: 0 auto;
 
-    @keyframes blink {
-      from {
-        opacity: 100%;
+      button {
+        color: white;
+        font-family: 'DotGothic16', sans-serif;
+        padding: 15px;
+        content: "";
+        animation-name: blink;
+        animation-duration: 0.1s;
+        animation-iteration-count: 1;
       }
 
-      to {
-        opacity: 0;
-      }
-    }
+      @keyframes blink {
+        from {
+          opacity: 100%;
+        }
 
+        to {
+          opacity: 0;
+        }
+      }
+
+    }
   }
-}
 
-// .fade {
-//   margin-top: 120vh;
-//   text-align: center;
-//   opacity: 0;
-//   transition: opacity 6s;
-// }
+  // .fade {
+  //   margin-top: 120vh;
+  //   text-align: center;
+  //   opacity: 0;
+  //   transition: opacity 6s;
+  // }
 
-// .fade.view {
-//   opacity: 1;
-// }
+  // .fade.view {
+  //   opacity: 1;
+  // }

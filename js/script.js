@@ -33,12 +33,24 @@ $(function () {
         $("#command-text .chara-c1").text("みんなで力を合わせてモンスターを攻撃した!15000ポイントのダメージを与えた!モンスターを倒した!");
         $("#container-command").remove();
         $(".monster-appearance").remove();
+        $(".chara-c2").text("");
+        $(".chara-c3").text("");
+        $(".chara-c4").text("");
+        $(".chara-c5").text("");
+        $(".chara-c6").text("");
+        $(".chara-c7").text("");
     })
     // にげる
     $(".escape").on("click", function () {
         $("#command-text").removeClass("hide");
         $("#command-text .chara-c1").text("うまくにげきれた");
         $("#container-command").remove();
+        $(".chara-c2").text("");
+        $(".chara-c3").text("");
+        $(".chara-c4").text("");
+        $(".chara-c5").text("");
+        $(".chara-c6").text("");
+        $(".chara-c7").text("");
     })
     // いれかえ
     $(".swap").on("click", function () {
@@ -50,13 +62,13 @@ $(function () {
         $("#command-text .chara-c5").text("はるな");
         $("#command-text .chara-c6").text("ゆきのり");
         $("#command-text .chara-c7").text("りか");
-        $("#command-text .return").text("戻る");
-        div = $("#container-command").detach();
+        // $("#command-text .return").text("戻る");
+        // div = $("#container-command").detach();
     })
-    $(".return").on("click", function () {
-        $("#command-text").remove();
-        // $(this).before(div);
-    })
+    // $(".return").on("click", function () {
+    //     $("#command-text").remove();
+    //     // $(this).before(div);
+    // })
 
     $(".chara-c1").on("click", function () {
         $("#member-list1").addClass("hyozi")
@@ -91,27 +103,27 @@ $(function () {
         $(".forth-lv").text("Lv:29");
     })
     $(".chara-c5").on("click", function () {
-        $("#member-list1").addClass("hyozi")
-        $(".first-name").text("ルイス");
-        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
-        $(".first-hp").text("HP:700");
-        $(".first-t").text("GS:75");
-        $(".first-lv").text("Lv:100");
+        $("#member-list5").addClass("hyozi")
+        $(".five-name").text("はるな");
+        $("#member-list5").children("img").attr('src', "./img/haruna.png").attr("width", "120px").attr("height", "120px");
+        $(".five-hp").text("HP:162");
+        $(".five-t").text("UU:95");
+        $(".five-lv").text("Lv:27");
     })
-    $(".chara-c5").on("click", function () {
-        $("#member-list1").addClass("hyozi")
-        $(".first-name").text("ルイス");
-        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
-        $(".first-hp").text("HP:700");
-        $(".first-t").text("GS:75");
-        $(".first-lv").text("Lv:100");
+    $(".chara-c6").on("click", function () {
+        $("#member-list6").addClass("hyozi")
+        $(".six-name").text("ゆきのり");
+        $("#member-list6").children("img").attr('src', "./img/yukinori.png").attr("width", "120px").attr("height", "120px");
+        $(".six-hp").text("HP:165");
+        $(".six-t").text("AO:100");
+        $(".six-lv").text("Lv:25");
     })
-    $(".chara-c5").on("click", function () {
-        $("#member-list1").addClass("hyozi")
-        $(".first-name").text("ルイス");
-        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
-        $(".first-hp").text("HP:700");
-        $(".first-t").text("GS:75");
-        $(".first-lv").text("Lv:100");
+    $(".chara-c7").on("click", function () {
+        $("#member-list7").addClass("hyozi")
+        $(".seven-name").text("りか");
+        $("#member-list7").children("img").attr('src', "./img/rika.png").attr("width", "120px").attr("height", "120px");
+        $(".seven-hp").text("HP:256");
+        $(".seven-t").text("DJ:85");
+        $(".seven-lv").text("Lv:27");
     })
 })
