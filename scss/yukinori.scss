@@ -15,6 +15,14 @@
   height: 230px;
 }
 
+// .deadruis{
+//   color: white;
+//   text-align: center;
+//   // border: solid 2px white;
+//   border-radius: 0.5em;
+//   height: 230px;
+// }
+
 .hyozi {
   border: solid 2px white;
 }
@@ -67,14 +75,13 @@
     font-family: 'DotGothic16', sans-serif;
   }
 
-  // &-list {
-  //   border: solid 2px white;
-  //   padding: 4px;
-  //   color: white;
-  //   border-radius: 0.2em;
-  //   cursor: pointer;
-  //   font-family: 'DotGothic16', sans-serif;
-  // }
+  &-list {
+    border: solid 2px white;
+    color: white;
+    border-radius: 0.2em;
+    cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
+  }
 
   &-appearance {
     position: absolute;

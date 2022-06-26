@@ -38,6 +38,14 @@
   font-family: 'DotGothic16', sans-serif;
 }
 
+.monster-list {
+  border: solid 2px white;
+  color: white;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-family: 'DotGothic16', sans-serif;
+}
+
 .monster-appearance {
   position: absolute;
   top: -100px;
