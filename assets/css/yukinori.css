@@ -17,6 +17,10 @@
   border: solid 2px white;
 }
 
+.deadruis {
+  border: solid 2px red;
+}
+
 #monster-text {
   height: 350px;
   text-align: center;

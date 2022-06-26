@@ -42,7 +42,9 @@ $(function () {
     // にげる
     $(".escape").on("click", function () {
         $("#command-text").removeClass("hide");
-        $("#command-text .chara-c1").text("うまくにげきれた");
+        $("#member-list1").addClass("deadruis");
+        $(".first-hp").text("HP:0");
+        $("#command-text .chara-c1").text("ルイス先生がみんなの身代わりになり逃げることができた.....");
         $("#container-command").remove();
         $(".chara-c2").text("");
         $(".chara-c3").text("");
