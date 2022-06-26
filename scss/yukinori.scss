@@ -1,3 +1,34 @@
+// メンバー
+#technext-member {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+#member-list1 {
+  color: white;
+  text-align: center;
+  // border: solid 2px white;
+  border-radius: 0.5em;
+  height: 230px;
+}
+
+.hyozi{
+  border: solid 2px white;
+}
+
+#member-list2{
+  @extend #member-list1;
+}
+
+#member-list3{
+  @extend #member-list1;
+}
+
+#member-list4{
+  @extend #member-list1;
+}
+
 // モンスター
 #monster-text {
   height: 350px;
@@ -34,7 +65,7 @@
   &-appearance {
     position: absolute;
     top: -100px;
-    left: 30%;
+    left: 35%;
   }
 
   // &-btn{
