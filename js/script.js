@@ -51,28 +51,67 @@ $(function () {
         $("#command-text .chara-c6").text("ゆきのり");
         $("#command-text .chara-c7").text("りか");
         $("#command-text .return").text("戻る");
-        $("#container-command").remove();
+        div = $("#container-command").detach();
+    })
+    $(".return").on("click", function () {
+        $("#command-text").remove();
+        // $(this).before(div);
     })
 
-    let c1_btn = document.getElementsByClassName("chara-c1");
-    c1_btn.addEventListener("click",function(){
-        if ("#member-list1" = "") {
-            $("#member-list1").addClass("hyozi")
-            $(".first-name").text("ルイス");
-            $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
-            $(".first-hp").text("HP:700");
-            $(".first-t").text("GS:75");
-            $(".first-lv").text("Lv:100");
-        }
-    })
     $(".chara-c1").on("click", function () {
-        if ("#member-list1" = "") {
-            $("#member-list1").addClass("hyozi")
-            $(".first-name").text("ルイス");
-            $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
-            $(".first-hp").text("HP:700");
-            $(".first-t").text("GS:75");
-            $(".first-lv").text("Lv:100");
-        }
+        $("#member-list1").addClass("hyozi")
+        $(".first-name").text("ルイス");
+        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
+        $(".first-hp").text("HP:700");
+        $(".first-t").text("GS:75");
+        $(".first-lv").text("Lv:100");
+    })
+    $(".chara-c2").on("click", function () {
+        $("#member-list2").addClass("hyozi")
+        $(".second-name").text("きんじょう");
+        $("#member-list2").children("img").attr('src', "./img/kinjou.png").attr("width", "120px").attr("height", "120px");
+        $(".second-hp").text("HP:500");
+        $(".second-t").text("TP:98");
+        $(".second-lv").text("Lv:??");
+    })
+    $(".chara-c3").on("click", function () {
+        $("#member-list3").addClass("hyozi")
+        $(".third-name").text("ぐしけん");
+        $("#member-list3").children("img").attr('src', "./img/gushikenn.png").attr("width", "120px").attr("height", "120px");
+        $(".third-hp").text("HP:280");
+        $(".third-t").text("");
+        $(".third-lv").text("Lv:??");
+    })
+    $(".chara-c4").on("click", function () {
+        $("#member-list4").addClass("hyozi")
+        $(".forth-name").text("とっしー");
+        $("#member-list4").children("img").attr('src', "./img/tossi.png").attr("width", "120px").attr("height", "120px");
+        $(".forth-hp").text("HP:300");
+        $(".forth-t").text("BF:5");
+        $(".forth-lv").text("Lv:29");
+    })
+    $(".chara-c5").on("click", function () {
+        $("#member-list1").addClass("hyozi")
+        $(".first-name").text("ルイス");
+        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
+        $(".first-hp").text("HP:700");
+        $(".first-t").text("GS:75");
+        $(".first-lv").text("Lv:100");
+    })
+    $(".chara-c5").on("click", function () {
+        $("#member-list1").addClass("hyozi")
+        $(".first-name").text("ルイス");
+        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
+        $(".first-hp").text("HP:700");
+        $(".first-t").text("GS:75");
+        $(".first-lv").text("Lv:100");
+    })
+    $(".chara-c5").on("click", function () {
+        $("#member-list1").addClass("hyozi")
+        $(".first-name").text("ルイス");
+        $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
+        $(".first-hp").text("HP:700");
+        $(".first-t").text("GS:75");
+        $(".first-lv").text("Lv:100");
     })
 })
