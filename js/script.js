@@ -44,7 +44,7 @@ $(function () {
         $("#command-text").removeClass("hide");
         $("#member-list1").addClass("deadruis");
         $(".first-hp").text("HP:0");
-        $("#command-text .chara-c1").text("ルイス先生がみんなの身代わりになり逃げることができた.....");
+        $("#command-text .chara-c1").text("ルイス先生がみんなの身代わりになり逃げることができた.....先生ありがとう.....");
         $("#container-command").remove();
         $(".chara-c2").text("");
         $(".chara-c3").text("");
