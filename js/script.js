@@ -76,7 +76,7 @@ $(function () {
         $(".first-name").text("ルイス");
         $("#member-list1").children("img").attr('src', "./img/ruis.png").attr("width", "120px").attr("height", "120px");
         $(".first-hp").text("HP:700");
-        $(".first-t").text("GS:75");
+        $(".first-t").text("GS:100");
         $(".first-lv").text("Lv:100");
     })
     $(".chara-c2").on("click", function () {
@@ -84,7 +84,7 @@ $(function () {
         $(".second-name").text("きんじょう");
         $("#member-list2").children("img").attr('src', "./img/kinjou.png").attr("width", "120px").attr("height", "120px");
         $(".second-hp").text("HP:500");
-        $(".second-t").text("TP:98");
+        $(".second-t").text("TP:100");
         $(".second-lv").text("Lv:??");
     })
     $(".chara-c3").on("click", function () {
@@ -100,7 +100,7 @@ $(function () {
         $(".forth-name").text("とっしー");
         $("#member-list4").children("img").attr('src', "./img/tossi.png").attr("width", "120px").attr("height", "120px");
         $(".forth-hp").text("HP:300");
-        $(".forth-t").text("BF:5");
+        $(".forth-t").text("BF:1");
         $(".forth-lv").text("Lv:29");
     })
     $(".chara-c5").on("click", function () {
@@ -108,7 +108,7 @@ $(function () {
         $(".five-name").text("はるな");
         $("#member-list5").children("img").attr('src', "./img/haruna.png").attr("width", "120px").attr("height", "120px");
         $(".five-hp").text("HP:162");
-        $(".five-t").text("UU:95");
+        $(".five-t").text("CB:100");
         $(".five-lv").text("Lv:27");
     })
     $(".chara-c6").on("click", function () {
@@ -124,7 +124,7 @@ $(function () {
         $(".seven-name").text("りか");
         $("#member-list7").children("img").attr('src', "./img/rika.png").attr("width", "120px").attr("height", "120px");
         $(".seven-hp").text("HP:256");
-        $(".seven-t").text("DJ:85");
+        $(".seven-t").text("DJ:100");
         $(".seven-lv").text("Lv:27");
     })
 })
